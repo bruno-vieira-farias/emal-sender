@@ -1,0 +1,5 @@
+br\com\onurbasfar\mailsender\App.class
+br\com\onurbasfar\mailsender\config\GlobalConfig.class
+br\com\onurbasfar\mailsender\EnviaEmailService$1.class
+br\com\onurbasfar\mailsender\config\GlobalConfigLoader.class
+br\com\onurbasfar\mailsender\EnviaEmailService.class
