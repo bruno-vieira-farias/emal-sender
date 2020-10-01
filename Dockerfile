@@ -10,7 +10,7 @@ COPY src /home/app/src/
 RUN mvn package
 
 #
-# Package stage
+# Package stage.
 #
 FROM openjdk:8-jdk-alpine
 COPY --from=build /home/app/target/*.jar /usr/local/lib/mail-sender.jar
