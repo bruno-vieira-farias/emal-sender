@@ -13,6 +13,6 @@ RUN mvn package
 # Package stage
 #
 FROM openjdk:11-jdk-alpine
-COPY --from=build /home/app/target/*.jar /usr/local/lib/emprestimo.jar
+COPY --from=build /home/app/target/*.jar /usr/local/lib/mail-sender.jar
 EXPOSE 8082
 ENTRYPOINT ["java","-jar","/usr/local/lib/mail-sender.jar"]
